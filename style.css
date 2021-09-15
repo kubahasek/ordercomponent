@@ -1,7 +1,131 @@
+body {
+  background: url("images/pattern-background-desktop.svg") no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+}
+
+p {
+  opacity: 0.5;
+  font-weight: 500;
+  margin: 0;
+}
+
+.content {
+  width: 80%;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.hero--img {
+  width: 100%;
+  height: auto;
+}
+
+.item-purchased {
+  border-radius: 25px;
+  background-color: hsl(225, 100%, 98%);
+  margin-top: 3rem;
+}
+
+.hero--img img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.order--card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 31.25%;
+  height: 78vh;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: center;
+}
+
+.item--info-container {
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.item--info-left {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item--info {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.item--info p {
+  margin-top: 0.3rem;
+}
+
+.change--btn {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.change--btn:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(245, 93%, 58%);
+}
+
+.confirm--btn {
+  margin: 0 auto;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  margin-top: 3rem;
+  color: white;
+  font-weight: 700;
+  padding: 1rem;
+  box-shadow: 0px 5px 5px hsl(245, 75%, 52%, 0.2);
+}
+
+.confirm--btn:hover {
+  cursor: pointer;
+  background-color: hsl(245, 81%, 65%);
+}
+
+.cancel--btn {
+  margin-top: 1.5rem;
+}
+
+.cancel--btn p {
+  font-weight: 900;
+}
+
+.cancel--btn p:hover {
+  cursor: pointer;
+  opacity: 1;
 }
