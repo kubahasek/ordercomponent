@@ -129,3 +129,56 @@ p {
   cursor: pointer;
   opacity: 1;
 }
+
+@media (max-width: 375px) {
+  body {
+    background: url("images/pattern-background-mobile.svg") no-repeat;
+    background-color: hsl(225, 100%, 94%);
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  p {
+    opacity: 0.5;
+    font-weight: 500;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .order--card {
+    position: absolute;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 68vh;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+  }
+
+  .change--btn {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-size: 0.8rem;
+  }
+
+  .item--img img {
+    width: 100%;
+  }
+
+  .hero--img img {
+    width: 100%;
+  }
+}
